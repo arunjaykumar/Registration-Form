@@ -1,0 +1,34 @@
+/* Global styles */
+body {
+  background-color: blueviolet;
+  background-image: radial-gradient(
+    650px circle at 0% 0%,
+    hsl(218, 41%, 35%) 15%,
+    hsl(218, 41%, 30%) 35%,
+    hsl(218, 41%, 20%) 75%,
+    hsl(218, 41%, 19%) 80%
+  );
+}
+
+/* Custom styles for form */
+.card {
+  border: none; /* Remove default card border */
+}
+
+.card-title {
+  color: blueviolet; /* Customize card title color */
+}
+
+.form-label {
+  color: blueviolet; /* Customize form label color */
+}
+
+.btn-primary {
+  background-color: blueviolet; /* Customize primary button color */
+  border-color: blueviolet; /* Customize primary button border color */
+}
+
+.btn-primary:hover {
+  background-color: darkviolet; /* Darken button color on hover */
+  border-color: darkviolet; /* Darken button border color on hover */
+}
