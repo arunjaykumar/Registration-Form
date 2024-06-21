@@ -1,5 +1,5 @@
 /* Global styles */
-body {
+.background-radial-gradient {
   background-color: blueviolet;
   background-image: radial-gradient(
     650px circle at 0% 0%,

@@ -10,10 +10,7 @@ const port = process.env.PORT || 3001;
 
 // MongoDB connection
 mongoose
-  .connect("mongodb://0.0.0.0:27017/bharat", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect("mongodb://0.0.0.0:27017/bharat")
   .then(() => {
     console.log("Connection to MongoDB successful");
   })
